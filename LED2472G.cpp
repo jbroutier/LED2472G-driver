@@ -23,7 +23,7 @@ void LED2472G::setPixel(uint8_t x, uint8_t y, uint16_t color)
 {
     uint8_t pixel = (uint8_t)(x * 24 + y);
 
-    pixels[pixel]	   = (uint8_t)((color >> 10) & 0x3E);
+    pixels[pixel]      = (uint8_t)((color >> 10) & 0x3E);
     pixels[pixel + 8]  = (uint8_t)((color >> 5)  & 0x3F);
     pixels[pixel + 16] = (uint8_t)((color << 1)  & 0x3E);
 }
