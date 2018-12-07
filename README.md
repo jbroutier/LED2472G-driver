@@ -35,7 +35,7 @@ int main(int argc, char** argv)
 
 ## Documentation
 
-#### `LED2472G::LED2472G(const char* devicePath, uint8_t deviceAddress = LED2472G_DEVICE_ADDRESS)`
+### `LED2472G::LED2472G(const char* devicePath, uint8_t deviceAddress = LED2472G_DEVICE_ADDRESS)`
 ___
 Creates a LED2472G object.
 
