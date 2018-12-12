@@ -72,7 +72,7 @@ The *r* parameter represents the red component of the color in the range 0-255.
 The *g* parameter represents the green component of the color in the range 0-255.  
 The *b* parameter represents the blue component of the color in the range 0-255.
 
-The color of the LED won't be updated until the `update()` is called.
+The color of the LED won't be updated until the `update()` method is called.
 
 ___
 ### `void LED2472G::update()`
